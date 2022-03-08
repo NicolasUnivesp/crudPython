@@ -11,6 +11,7 @@ import Pages.Clientes.List as PageListCliente
 
 
 
+
 st.sidebar.title('Menu')
 page_cliente = st.sidebar.selectbox('Cliente', ['Incluir', 'Alterar', 'Excluir', 'Consultar'])
 
